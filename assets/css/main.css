@@ -84,7 +84,7 @@ input, select, textarea {
 
 	body {
 		/* background: #fff; */
-		background:#e1bee7;
+		background-color:#e1bee7;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -99,7 +99,7 @@ input, select, textarea {
 		}
 
 	body, input, select, textarea {
-		color: #666;
+		color: rgb(65, 6, 6);
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 16pt;
 		font-weight: 300;
@@ -2820,19 +2820,19 @@ input, select, textarea {
 	}
 
 		.main.style1 {
-			background: #fff;
+			background: #cad7ff;
 		}
 
 		.main.style2 {
-			background-color: #333;
-			color: rgba(255, 255, 255, 0.75);
+			background-color: rgb(158, 155, 155);
+			color: rgba(24, 17, 17, 0.75);
 			background-attachment: fixed,							fixed;
 			background-image: url("images/overlay1.png"), url("../../images/header.jpg");
 			background-size: auto,							cover;
 		}
 
 			.main.style2 a {
-				border-bottom-color: rgba(255, 255, 255, 0.5);
+				border-bottom-color: rgba(250, 218, 218, 0.5);
 			}
 
 				.main.style2 a:hover {
@@ -2916,9 +2916,9 @@ input, select, textarea {
 	#header {
 		padding: 9em 0 9em 0 ;
 		background-color: #4686a0;
-		color: rgba(255, 255, 255, 0.75);
+		color: rgba(255, 255, 255, 0.90);
 		background-attachment: fixed,							fixed,							fixed;
-		background-image: url("images/overlay2.png"), url("images/overlay3.svg"), linear-gradient(45deg, #9dc66b 5%, #4fa49a 30%, #4361c2);
+		background-image: url("images/overlay2.png"), url("images/overlay3.svg"), linear-gradient(45deg, #bde293 5%, #76e4d7 40%, #7b94e4 65%);
 		background-position: top left,						center center,					center center;
 		background-size: auto,							cover,							cover;
 		overflow: hidden;
@@ -2938,8 +2938,8 @@ input, select, textarea {
 			color: #ffffff;
 		}
 
-		#header header p {
-			color: #ffffff;
+		#header p {
+			color: #7c5a5a;
 		}
 
 		#header header.major:after {
@@ -3114,7 +3114,8 @@ input, select, textarea {
 		background-color: #4686a0;
 		color: rgba(255, 255, 255, 0.75);
 		background-attachment: fixed,							fixed,							fixed;
-		background-image: url("images/overlay2.png"), url("images/overlay4.svg"), linear-gradient(45deg, #4361c2, #4fa49a 50%, #9dc66b 95%);
+		/* background-image: url("images/overlay2.png"), url("images/overlay4.svg"), linear-gradient(45deg, #4361c2, #4fa49a 50%, #9dc66b 95%); */
+		background-image: url("images/overlay2.png"), url("images/overlay4.svg"), linear-gradient(45deg, #bde293 5%, #76e4d7 40%, #7b94e4 65%);
 		background-position: top left,						center center,					center center;
 		background-size: auto,							cover,							cover;
 		text-align: center;
@@ -3213,6 +3214,7 @@ input, select, textarea {
 			justify-content: center;
 			margin-left: 475px;
 			/* background-color: #80deea; */
+			/* font-size: larger; */
 		}
 		#footer .contact-form .email .input{
 			/* background-color: white; */
@@ -3232,6 +3234,7 @@ input, select, textarea {
 				line-height: 1em;
 				margin-left: 1em;
 				padding: 0 0 0 1em;
+				color: rgb(58, 119, 233);
 			}
 
 				#footer .copyright li:first-child {
