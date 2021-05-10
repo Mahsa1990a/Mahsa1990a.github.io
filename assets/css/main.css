@@ -3057,10 +3057,6 @@ input, select, textarea {
 			z-index: 1;
 		}
 
-		#header .inner img {
-			border-radius: 50%;
-		}
-
 			#header .inner .actions {
 				-moz-transition: -moz-transform 1.25s ease;
 				-webkit-transition: -webkit-transform 1.25s ease;
